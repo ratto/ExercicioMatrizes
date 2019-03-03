@@ -20,14 +20,8 @@ namespace ExercicioMatrizes {
             }
 
             Console.WriteLine("Diagonal principal: ");
-            int[] diagonal = new int[n];
-
             for (int m = 0; m < n; m++) {
-                diagonal[m] = mat[m, m];
-            }
-
-            for (int m = 0; m < n; m++) {
-                Console.Write(diagonal[m] + " ");
+                Console.Write(mat[m, m] + " ");
             }
             Console.WriteLine();
 
